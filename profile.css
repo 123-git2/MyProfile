@@ -1,0 +1,147 @@
+/* default styles */
+body, h1, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: blueviolet;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header styles */
+header {
+    background-color: palevioletred;
+    color: black;
+    padding: 10px 0;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header .logo img {
+    height: 70px;
+}
+
+header .logo img:hover{
+    transform: scale(2) translateX(200px);
+}
+
+header .navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header .navbar ul li {
+    margin: 0 15px;
+}
+
+header .navbar ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header .navbar ul li a:hover {
+    background-color: lightblue;
+}
+
+/* Main content styles */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 8px;
+}
+
+main .aboutCaro {
+    display: flex;
+    align-items: center;
+}
+
+main .aboutCaro img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-right: 20px;
+}
+
+main .aboutCaro img:hover{
+    transform: translateX(-200px);
+}
+
+main .aboutCaro p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Form styles */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: lightcoral;
+    border-radius: 8px;
+    margin-bottom: 5%;
+}
+
+form h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: black;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"] {
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+}
+
+form button {
+    background-color:lightpink;
+    color: black;
+    border: 1% solid lightblue;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 2s;
+}
+
+form button:hover {
+    background-color: palevioletred;
+    transform: scale(2) translateX(200px) rotate(360deg);
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: lightblue;
+    color: black;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
