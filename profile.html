@@ -15,16 +15,16 @@
         </div>
        <div class="navbar">
            <ul>
-            <li class="home"><a href="/home.html">Home</a></li>
-            <li><a href="/myprofile.html">My Profile</a></li>
+            <li class="home"><a href="#home">Home</a></li>
+            <li><a href="#myForm">My Profile</a></li>
            </ul>
        </div>
     </section>
 </header>
     
     <main>
-        <div class="aboutCaro">
-            <img src="MyProfilePicture.jpg" alt="profile-pic">
+        <div class="aboutCaro" id="home">
+            <img src="https://avatars.githubusercontent.com/u/131196193?s=400&u=461fa73d7c65780102f1a9a299c36fc92b7dfce9&v=4" alt="profile-pic">
             <p>Hi, I am Caroline Masiu and I hold a Diploma in Information Techology.
             I started serving as a software developer intern at Mphoti Consulting on the first of August.
             I have improved my Html and Css coding skills and I am currently learning JavaScript(form validation,
@@ -33,12 +33,10 @@
            </p>
         </div>
     </main>
-    <form>
-        <h1>Information Form</h1>
-        <label for="username">Name:</label>
-        <input type="text" name="username" required placeholder="enter your name..."><br><br>
-        <label for="role">Job Role:</label>
-        <input type="text" name="role" required placeholder="enter your job description..."><br><br>
+    <form id="myForm">
+        <h1>Add Skills</h1>
+        <label for="skills">Additional Skills:</label>
+        <input type="text" name="skills" required placeholder="enter more skills..."><br><br>
         <button>Save</button>
     </form>
     <footer>&copy; Caroline Masiu 2024</footer>

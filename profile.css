@@ -35,10 +35,6 @@ header .logo img {
     height: 70px;
 }
 
-header .logo img:hover{
-    transform: scale(2) translateX(200px);
-}
-
 header .navbar ul {
     list-style: none;
     display: flex;
@@ -82,7 +78,7 @@ main .aboutCaro img {
 }
 
 main .aboutCaro img:hover{
-    transform: translateX(-200px);
+    transform: scale(1.5);
 }
 
 main .aboutCaro p {
@@ -132,7 +128,7 @@ form button {
 
 form button:hover {
     background-color: palevioletred;
-    transform: scale(2) translateX(200px) rotate(360deg);
+    transform: scale(1.5);
 }
 
 /* Footer styles */
